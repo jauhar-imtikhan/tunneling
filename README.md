@@ -7,7 +7,8 @@
 # Required
 
 <br>
-- DOMAIN (MUST)/RANDOM from Script (sudah di pointing ke cloudflare)<br>
+- DOMAIN (sudah di pointing ke cloudflare)<br>
+- Jika belum punya domain maka akan mendapat domain random dari script!!
 - DEBIAN 9/10<br>
 - Ubuntu 18/20 LTS<br>
 - CPU MIN 1 CORE<br>
