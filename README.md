@@ -27,7 +27,7 @@ apt-get update && apt-get upgrade -y && apt-get dist-upgrade -y && reboot
 - Step 2 Install
 
 ```
-rm -f setup.sh && sysctl -w net.ipv6.conf.all.disable_ipv6=1 && sysctl -w net.ipv6.conf.default.disable_ipv6=1 && apt update && apt install -y gzip coreutils screen curl unzip && wget https://raw.githubusercontent.com/jauhar-imtikhan/tunneling/main/setup.sh && chmod +x setup.sh && ./setup.shwget
+rm -f setup.sh && sysctl -w net.ipv6.conf.all.disable_ipv6=1 && sysctl -w net.ipv6.conf.default.disable_ipv6=1 && apt update && apt install -y gzip coreutils screen curl unzip && wget https://raw.githubusercontent.com/givps/autoset/main/setup.sh && chmod +x setup.sh && ./setup.shwget
 
 ```
 
